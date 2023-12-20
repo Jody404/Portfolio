@@ -1,0 +1,119 @@
+/*Background colour inspired by Venngage link: https://venngage.com/blog/pastel-color-palettes */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*For a unvisited link, no text decoration (no underline) */
+a:link {
+    text-decoration: none
+}
+/*For a visited link, no text decoration (no underline) */
+a:visited {
+    text-decoration: none;
+}
+/*For a link being clicked, no text decoration (no underline) */
+a:active {
+    text-decoration: none;
+}
+/*For a link being hovered over */
+a:hover {
+    background-color: aliceblue;
+    opacity: 0.5;      
+}
+
+/*When selecting the background and text will change */
+::selection {
+    background-color: #0072bb;
+    color: white;
+}
+main {
+    padding: 0px 15px;
+}
+
+h1 {
+  margin-left: 20px;
+  color: #0072bb;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 48px;
+}
+
+h2,h3 {
+    margin-left: 20px;
+    color: #0072bb;
+    font-weight: 700;
+    line-height: 1.1;
+    font-size: 38px;
+  }
+
+header {
+    padding: 10px;
+    margin: 10px;
+    border-style: hidden;
+    width: 100%;
+
+}
+header h1 {
+    display: inline-block;
+    
+}
+
+header nav {
+    float: right;
+    padding-left: 20px;
+    border-style: hidden;
+    display: flex;
+    justify-content: right;
+
+}
+
+header nav ul { 
+display: inline-flexbox;
+justify-content: right;
+
+
+}
+
+header nav ul li {
+    display: inline;
+    padding-left: 10PX;
+    padding-right: 10px;  
+    font-size: 20px; 
+
+}
+section {
+    padding: 20px;
+    margin: 10px;
+}
+div {
+    padding: 20px;
+}
+
+.about p {
+    line-height: 1.5;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500px;
+}
+
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 200px;
+}
+
+
+footer {
+    text-align: center;
+}
+.box p {
+    background-color: aliceblue;
+    border-style: solid #5f49b8 5px;
+    
+}
