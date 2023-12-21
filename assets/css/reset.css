@@ -6,9 +6,24 @@
   padding: 0;
   box-sizing: border-box;
 }
+*::after {
+  text-decoration: none;
+}
+
+*::before {
+  text-decoration: none;
+}
+
+*::while  {
+  text-decoration: none;
+}
 
 html {
   height: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 body {
